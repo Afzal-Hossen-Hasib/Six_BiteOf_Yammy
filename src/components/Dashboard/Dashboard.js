@@ -45,7 +45,7 @@ const Dashboard = () => {
   return (
     <div className="chart-container">
 
-    <LineChart width={600} height={400} data={data}>
+    <LineChart width={700} height={500} data={data}>
       <CartesianGrid strokeDasharray="3 3" />
       <XAxis dataKey={"month"} />
       <YAxis />
@@ -54,7 +54,7 @@ const Dashboard = () => {
     </LineChart>
 
 
-      <AreaChart width={600} height={400} data={data}>
+      <AreaChart width={700} height={500} data={data}>
         <CartesianGrid strokeDasharray="3 3" />
         <XAxis dataKey="month" />
         <YAxis />

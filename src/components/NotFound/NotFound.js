@@ -1,9 +1,10 @@
 import React from 'react';
+import ErrorImg from '../../images/404.jpg'
 
 const NotFound = () => {
     return (
-        <div>
-            <h2>The Page IS Not Availabel 404</h2>
+        <div className='error-container'>
+            <img src={ErrorImg} alt="" />
         </div>
     );
 };
