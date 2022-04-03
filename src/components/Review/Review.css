@@ -1,5 +1,6 @@
 .customer-review-container {
     height: 60vh;
+    text-align: center;
 }
 
 .review-container {
@@ -28,5 +29,8 @@
 }
 
 .review-button {
-    text-align: center;
+    background-color: aqua;
+    margin: 0 auto;
+    display: inline-block;
+    
 }

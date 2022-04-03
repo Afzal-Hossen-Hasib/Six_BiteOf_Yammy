@@ -1,4 +1,5 @@
 import React from 'react';
+import { Link } from 'react-router-dom';
 import useReview from '../../hooks/useReview';
 import './Review.css'
 
@@ -26,7 +27,7 @@ const Review = () => {
                 })
             }
             </div>
-            <button className='button review-button'>See All Reviews</button>
+            <Link to="/reviews" className='button review-button'>See All Reviews</Link>
         </div>
     );
 };

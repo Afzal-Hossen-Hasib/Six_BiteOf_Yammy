@@ -1,0 +1,14 @@
+.all-review {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    margin-top: 50px;
+    grid-gap: 50px;
+    padding: 0 50px;
+
+}
+
+.all-review-card {
+    background-color: aqua;
+    text-align: center;
+    border: 1px solid orangered;
+}
