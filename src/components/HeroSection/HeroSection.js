@@ -8,7 +8,7 @@ const HeroSection = () => {
             <div className='food-details'>
                 <h1>A Bite Of Yummy!!!!</h1>
                 <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Animi ad, expedita deleniti omnis consectetur facilis ullam sint aspernatur! Ad exercitationem, alias eaque tempore deleniti recusandae. Quibusdam earum neque ipsa quae!</p>
-                <button className='food-button'>SEE MORE</button>
+                <button className='button'>SEE MORE</button>
             </div>
 
             <div>

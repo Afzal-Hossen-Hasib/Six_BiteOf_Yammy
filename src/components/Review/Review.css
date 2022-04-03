@@ -1,0 +1,32 @@
+.customer-review-container {
+    height: 60vh;
+}
+
+.review-container {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    margin: 20px 0;
+}
+
+.review-card {
+    width: 30%;
+    text-align: center;
+    background-color: red;
+}
+
+.customer-name {
+    text-align: center;
+    font-size: 3rem;
+    margin-top: 10px;
+}
+
+.review-card img {
+    height: 100px;
+    width: 100px;
+    border-radius: 50%;
+}
+
+.review-button {
+    text-align: center;
+}
