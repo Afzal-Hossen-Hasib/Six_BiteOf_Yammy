@@ -18,6 +18,16 @@
     border-radius: 20px;
 }
 
+.review-card p {
+    font-size: 18px;
+    margin: 10px 0;
+}
+
+.review-card span {
+    font-weight: bold;
+    color: #755bea;
+}
+
 .customer-name {
     text-align: center;
     font-size: 3rem;

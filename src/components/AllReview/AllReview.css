@@ -13,3 +13,19 @@
     box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
     border-radius: 20px;
 }
+
+.all-review-card p {
+    font-size: 18px;
+    margin: 10px 0;
+}
+
+.all-review-card span {
+    font-weight: bold;
+    color: #755bea;
+}
+
+.all-review-card img {
+    height: 150px;
+    width: 150px;
+    border-radius: 50%;
+}
