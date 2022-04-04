@@ -29,3 +29,11 @@
     width: 150px;
     border-radius: 50%;
 }
+
+.all-review-title {
+    color: #5f016b;
+    text-align: center;
+    font-size: 2.5rem;
+    margin-top: 50px;
+    text-transform: uppercase;
+}

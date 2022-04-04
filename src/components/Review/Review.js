@@ -10,7 +10,7 @@ const Review = () => {
 
     return (
         <div className='customer-review-container'>
-            <h1 className='customer-name'>Customer Reviews </h1>
+            <h1 className='customer-name'>Customer Reviews</h1>
             <div className='review-container'>
             {
                 foodReview.map (food => {

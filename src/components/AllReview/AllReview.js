@@ -7,7 +7,9 @@ const AllReview = () => {
 
 
     return (
-        <div className='all-review'>
+        <div>
+            <h1 className='all-review-title'>Customer Reviews....</h1>
+            <div className='all-review'>
             {
                 reviews.map (review => {
                     const {name, rating, picture, description} = review;
@@ -21,6 +23,7 @@ const AllReview = () => {
                     )
                 })
             }
+        </div>
         </div>
     );
 };

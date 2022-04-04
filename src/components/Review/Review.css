@@ -16,11 +16,12 @@
     box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
     padding: 30px;
     border-radius: 20px;
+    margin: 15px 0;
 }
 
 .review-card p {
     font-size: 18px;
-    margin: 10px 0;
+    margin: 15px 0;
 }
 
 .review-card span {
@@ -29,9 +30,9 @@
 }
 
 .customer-name {
+    color: #5f016b;
     text-align: center;
     font-size: 3rem;
-    margin-top: 10px;
 }
 
 .review-card img {
