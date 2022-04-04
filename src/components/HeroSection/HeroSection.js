@@ -7,7 +7,7 @@ const HeroSection = () => {
         <div className='food-container'>
             <div className='food-details'>
                 <h1>A Bite Of <span className='short-title'>Yummy!!!!</span></h1>
-                <p>If You Are Looking For A Recipe, You Can Filter Your Search By Season, Holiday, Special Diet, Meal Type, Or Ingredient.!</p>
+                <p>If You Are Looking For A Recipe, You Can Filter Your Search By Season, Holiday, Special Diet, Meal Type, Or Ingredient !!</p>
                 <button className='button'>SEE MORE</button>
             </div>
 
