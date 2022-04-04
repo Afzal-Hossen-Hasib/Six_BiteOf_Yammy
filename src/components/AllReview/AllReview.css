@@ -38,7 +38,7 @@
     text-transform: uppercase;
 }
 
-.rating p{
-    color: #5f016b;
-    font-size: 150px;
+.rating {
+    color: orangered;
+    font-weight: bold;
 }
