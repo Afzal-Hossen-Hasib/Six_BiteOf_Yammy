@@ -1,8 +1,9 @@
 # A Bite Of Yummy!!!!
 
 
-## • Answering The Question.
-## • Creation Of Dashboard Chart.
-## • Destructure Of Arrays And Objects.
-## • Fake Data Creation.
-## • Use Route To Shift Between Page.
+### • Fake Data Creation.
+### • Use Route To Shift Between Page.
+### • Custom Hook Creation.
+### • Destructure Of Arrays And Objects.
+### • Creation Of Dashboard Chart.
+### • Answering The Question.

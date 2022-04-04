@@ -45,22 +45,28 @@ const Dashboard = () => {
   return (
     <div className="chart-container">
 
-    <LineChart width={700} height={500} data={data}>
-      <CartesianGrid strokeDasharray="3 3" />
-      <XAxis dataKey={"month"} />
-      <YAxis />
-      <Tooltip />
-      <Line type="monotone" dataKey={"sell"} stroke="#8884d8" activeDot={{ r: 8 }}/>
-    </LineChart>
+    <div>
+      <h1>Month Wise Sell</h1>
+        <LineChart width={700} height={500} data={data}>
+          <CartesianGrid strokeDasharray="3 3" />
+          <XAxis dataKey={"month"} />
+          <YAxis />
+          <Tooltip />
+          <Line type="monotone" dataKey={"sell"} stroke="#8884d8" activeDot={{ r: 8 }}/>
+        </LineChart>
+    </div>
 
-
-      <AreaChart width={700} height={500} data={data}>
+    <div>
+      <h1>Investment</h1>
+    <AreaChart width={700} height={500} data={data}>
         <CartesianGrid strokeDasharray="3 3" />
         <XAxis dataKey="month" />
         <YAxis />
         <Tooltip />
         <Area type="monotone" dataKey="investment" stroke="#8884d8" fill="#8884d8" />
       </AreaChart>
+    </div>
+      
 
     </div>
   );
