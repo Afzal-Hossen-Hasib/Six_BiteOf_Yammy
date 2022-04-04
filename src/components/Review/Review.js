@@ -20,7 +20,7 @@ const Review = () => {
                             <div className='review-card'>
                                 <img src= {picture} alt="" />
                                 <p> <span>Name:</span> {name}</p>
-                                <p> <span>Description:</span> {description}</p>
+                                <p> <span>Review:</span> {description}</p>
                                 <p> <span>Rating:</span> {rating}</p>
                             </div>
                     )
