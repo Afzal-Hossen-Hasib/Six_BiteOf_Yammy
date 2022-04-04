@@ -1,0 +1,42 @@
+.qna-container {
+    width: 80%;
+    margin-top: 50px;
+    padding-left: 400px;
+}
+
+.qna-title {
+    text-align: center;
+    font-size: 2.5rem;
+    color: #5f016b;
+    text-align: center;
+    margin-bottom: 20px;
+    background-color: #f6e3fe;
+    padding: 10px;
+    border-radius: 10px;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+
+.ans-container {
+    margin: 30px 0;
+    padding: 25px;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    border-radius: 10px;
+}
+
+.ans-container h2 {
+    color: #5f016b;
+    margin-bottom: 10px;
+    font-size: 1.9rem;
+}
+
+.ans-container p {
+    text-align: justify;
+    font-size: 1.1rem;
+}
+
+.ans-container span {
+    background-color: #f6e3fe;
+    font-weight: bold;
+    font-size: 1.2rem;
+    color: #5f016b;
+}

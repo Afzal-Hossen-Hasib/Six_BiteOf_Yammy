@@ -17,8 +17,8 @@ const AllReview = () => {
                         <div className='all-review-card'>
                                 <img src= {picture} alt="" />
                                 <p> <span>Name:</span> {name}</p>
-                                <p> <span>Description:</span> {description}</p>
-                                <p> <span>Rating:</span> {rating}</p>
+                                <p> <span>Review:</span> {description}</p>
+                                <p className='rating'> <span>Rating:</span> {rating} Out Of 5</p>
                         </div>
                     )
                 })
